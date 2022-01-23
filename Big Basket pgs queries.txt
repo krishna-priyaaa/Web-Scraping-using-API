@@ -1,3 +1,5 @@
+SQL Queries
+
 SELECT * FROM public."Big Basket Products " LIMIT 5;
 SELECT "Product ID", COUNT(*) FROM public."Big Basket Products " GROUP BY "Product ID" HAVING COUNT(*)>1; #8016 duplicate products
 
